@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace Populism { 
-
+    
 public class StereoType_Attributes : MonoBehaviour {
 
 
@@ -26,6 +26,8 @@ public class StereoType_Attributes : MonoBehaviour {
             propagandaAttributes.greed = greed_Multiplier * propaganda.greed;
             propagandaAttributes.fun = fun_Multiplier * propaganda.fun;
             propagandaAttributes.fear = fear_Multiplier * propaganda.fear;
+
+            
     }
 
     public void CalculateMotivation()
